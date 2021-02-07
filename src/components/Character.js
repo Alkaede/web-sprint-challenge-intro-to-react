@@ -35,6 +35,7 @@ export default function CharacterGrabber() {
                                         <ul>
                                             <li>Year Born: {character.birth_year}</li>
                                             <li>Gender: {character.gender}</li>
+                                            <li>Height: {character.height}</li>
                                             <li>Mass: {character.mass}</li>
                                             <li>Eye Color: {character.eye_color}</li>
                                             <li>Hair Color: {character.hair_color}</li>
