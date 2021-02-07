@@ -29,13 +29,14 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-
+  React is a JS library for building UI's and UI components. It allows us to modify the DOM with what is known as the Virtual DOM so that we can change specific parts of the webpage without having to change the entire DOM itself
 1. Describe component state.
-
+  component state is where you store property values that belong to a component 
 1. Describe props.
-
+  props are arguments passed into React components are attatched to HTML via attributes
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-
+  Side effects are things like console.log where it affects something outside of the scope of the current function thats being executed. We sync these side effects by passing an prop/state
+  that we are directly changing so that the side effect applies only during those changes
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
@@ -99,5 +100,5 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
-- [ ] Submit via Codegrade
+- [ x] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
+- [ x] Submit via Codegrade
